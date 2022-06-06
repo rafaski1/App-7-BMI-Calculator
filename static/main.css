@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  color: #e6ffff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container h1 {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: SteelBlue;
+  margin-top: : 80px;
+}
+
+.container h3 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: DimGray;
+}
+
+.container form {
+  margin: 20px;
+}
+
+.container input {
+  width: 350px;
+  height: 16px;
+  font-size: 16px;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px solid SteelBlue;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.container button {
+  width: 100px;
+  height: 40px;
+  margin: 5px;
+  border: 0px;
+  border-radius: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 8px;
+  transition-duration: 0.4s;
+}
+
+.container button:hover {
+  background-color: SteelBlue;
+  color: white;
+  border: 0px;
+}
+
+.container p {
+  margin: 100px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: DimGray;
+}
+
+.message {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: SteelBlue;
+}

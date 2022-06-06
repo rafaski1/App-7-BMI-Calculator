@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BIM Calculator App</title>
+    <link href="../static/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <h3>Please fill the entries to get your BMI and population statistics on BMI</h3>
+        <div class="message">
+            {{text | safe}}
+        </div>
+        <form action="{{url_for('success')}}" method="POST">
+            <input title="Your email will be safe with us" placeholder="Enter your email address" type="email" name="email_name" required><br>
+            <input title="Your data will be safe with us" placeholder="Enter your height [cm]" type="number" min="50" max="250" name="height_name" required><br>
+            <input title="Your data will be safe with us" placeholder="Enter your weight [kg]" type="number" max="250" name="weight_name" required><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
